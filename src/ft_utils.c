@@ -6,7 +6,7 @@
 /*   By: fsemke <fsemke@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/07 19:16:34 by fsemke            #+#    #+#             */
-/*   Updated: 2023/04/07 01:43:52 by fsemke           ###   ########.fr       */
+/*   Updated: 2023/04/12 20:38:38 by fsemke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ void	ft_check_file_ext(char *filename, char *file_ext, t_map *m)
 		ptr_ext = ft_strrchr(filename, '.');
 		if (ptr_ext == NULL)
 			error_exit("Error\nfile format not found\n", m);
-		if (ft_strncmp(ptr_ext, file_ext, strlen_file_ext) != 0)
+		if (ft_strncmp(ptr_ext, file_ext, ft_strlen(ptr_ext)) != 0)
 			error_exit("Error\nWrong file format\n", m);
 	}
 }
