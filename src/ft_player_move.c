@@ -6,7 +6,7 @@
 /*   By: fsemke <fsemke@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/23 15:05:49 by fsemke            #+#    #+#             */
-/*   Updated: 2023/04/06 20:23:00 by fsemke           ###   ########.fr       */
+/*   Updated: 2023/04/12 20:42:18 by fsemke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,8 @@ int	ft_player_angle(t_app *a)
 	p = a->player;
 	old_dirx = p->dir[X];
 	old_planex = p->plane[X];
+	if (p->key_left && p->key_right)
+		return (0);
 	if (p->key_left)
 	{	
 		p->dir[X] = p->dir[X] * cos(-RS) - p->dir[Y] * sin(-RS);
