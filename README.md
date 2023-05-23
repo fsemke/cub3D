@@ -17,12 +17,19 @@ Choose one map and run it with:
 
 ## Controls
 ```W``` Move forward
+
 ```A``` Move left
+
 ```S``` Move back
+
 ```D``` Move right
+
 ```Left``` Look to the left
+
 ```Right``` Look to the right
+
 ```ESC``` Close the game
+
 
 ## Create own maps
 You can also create own maps.
