@@ -1,5 +1,5 @@
 # cub3D
-![image](https://github.com/fsemke/cub3D/assets/94831163/84fcfe53-54e4-4ee8-a407-f386e11ae3e9)
+![image](https://github.com/fsemke/cub3D/assets/94831163/d3b59fa9-4a09-4c53-acbc-fb5bd9d07024)
 
 This is a Raycaster project, created for the 42 cursus.
 It's written in C with the miniLibX library.
