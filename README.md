@@ -5,7 +5,7 @@ This is a Raycaster project, created for the 42 cursus.
 It's written in C with the miniLibX library.
 
 ## Requirements
-Install necessary packages:
+A Linux system and the necessary packages:
 ```sudo apt install build-essential libx11-dev libglfw3-dev libglfw3 xorg-dev```
 
 ## How to compile it
