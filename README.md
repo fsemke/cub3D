@@ -33,19 +33,29 @@ Choose one map and run it with:
 
 ## Create own maps
 You can also create own maps.
+
 The rules for the map:
+
 ```NO <PATH>``` Path to the texture for the North wall
+
 ```WE <PATH>``` Path to the texture for the West wall
+
 ```EA <PATH>``` Path to the texture for the East wall
+
 ```SO <PATH>``` Path to the texture for the South wall
+
 ```F <RGB in format 255,255,255>``` The color for the floor
+
 ```C <RGB in format 255,255,255>``` The color for the ceiling
+
 And the map itself:
+
 ```
 1111
 10N1
 1111
 ```
+
 1 == wall
 0 == empty space
 N == spawn in north direction
