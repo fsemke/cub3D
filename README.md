@@ -56,11 +56,16 @@ And the map itself:
 1111
 ```
 
-1 == wall
-0 == empty space
-N == spawn in north direction
-S == spawn in south direction
-W == spawn in west direction
-E == spawn in east direction
+```1``` wall
+
+```0``` empty space
+
+```N``` spawn in north direction
+
+```S``` spawn in south direction
+
+```W``` spawn in west direction
+
+```E``` spawn in east direction
 
 But don't worry, our game won't crash if the map has an error.
